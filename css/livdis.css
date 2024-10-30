@@ -1,0 +1,27 @@
+.wrap, .wrap-auth { background: #daa30a; }
+.wrap-auth {  }
+.ld-header { background: url(header_background.png) top right no-repeat #ebebeb; height: 228px; position: relative; }
+.ld-logo { display: block; width: 318px; height: 72px; background: url(logo.png) no-repeat; margin-left: 55px; }
+.ld-logo-bottom { background: url(logo_bottom.png) no-repeat; width: 430px; height: 87px; margin: 25px 0 0 55px; }
+
+.ld-content { padding: 35px; }
+
+#auth_frame { display: block; margin: 0 auto; width: 1px; height: 0; background: #daa30a; overflow: hidden; }
+
+.livdis_notificator {
+	background: #daa20e;
+	top: 49%;
+	left: 50%;
+	position: absolute;
+	z-index: 10000;
+	color: #1b1b1b !important;
+	font-weight: bold;
+	font-family: 'Tahoma', 'Arial';
+	font-size: 18px;
+	max-width: 400px;
+	min-width: 100px;
+	padding: 15px 45px 15px 15px;
+	-webkit-box-shadow: 0 5px 5px 0 #777;
+	-moz-box-shadow: 0 5px 5px 0 #777;
+	box-shadow: 0 5px 5px 0 #777;
+}
